@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
 <!-- add required and recommended <meta> tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alisa Mulhall">
+  <meta name="description" content="Limitless Fitness - Your ultimate destination for fitness and wellness. Join us to transform your life with personalized training, dynamic classes, and a supportive community.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Transform Your Life at Limitless Fitness">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/limitless-fitness-og-image.jpg">
+  <meta property="og:url" content="https://www.limitlessfitness.com">
+  <meta property="og:description" content="Join Limitless Fitness to unleash your strength, embrace the challenge, and be part of a community dedicated to your fitness journey.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@LimitlessFitness">
+  <meta name="twitter:creator" content="@LimitlessFitness">
+  <meta name="twitter:title" content="Transform Your Life at Limitless Fitness">
+  <meta name="twitter:description" content="Join Limitless Fitness to unleash your strength, embrace the challenge, and be part of a community dedicated to your fitness journey.">
+  <meta name="twitter:image" content="images/limitless-fitness-twitter-image.jpg">
+
+  <title>Transform Your Life at Limitless Fitness</title>
 
 </head>
 <body>
 <!-- add a skip link that skips to the main content -->
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
 <!-- add correct heading levels -->
   <header>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round" stroke-linejoin="round" width="75" height="75" stroke-width="1.5">
@@ -17,32 +38,34 @@
       <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2"></path>
       <path d="M22 12h-1"></path>
     </svg> 
-    Transform Your Life at Limitless Fitness
+    <h1>Transform Your Life at Limitless Fitness</h1>
     <p>Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.</p>
     <a href="#">Join Now</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-    
-      src="images/facility.jpg"
-
+    <figure>
+      <img src="images/facility.jpg" srcset="images/facility-320w.jpg 320w, images/facility-768w.jpg 768w, images/facility.jpg 1200w" sizes="(max-width: 600px) 100vw, 80vw" alt="Modern gym facility with various workout equipment">
+    </figure>
   </header>
-  <nav>
-    Main Navigation
+
+  <nav aria-label="Main Navigation">
+    <h2>Main Navigation</h2>
     <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Classes</a></li>
-      <li><a href="#">Personal Training</a></li>
-      <li><a href="#">Membership Options</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#our-classes">Classes</a></li>
+      <li><a href="#personal-training">Personal Training</a></li>
+      <li><a href="#membership-options">Membership Options</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact-us">Contact</a></li>
     </ul>
   </nav>
-  <main>
-    <section>
-      About Us
+
+  <main id="main-content">
+    <section id="about-us">
+      <h2>About Us</h2>
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
       <section>
-        What Sets Us Apart
+        <h3>What Sets Us Apart</h3>
         <ul>
           <li>Personalized Training: Customized workout plans tailored to your goals.</li>
           <li>Top-of-the-Line Equipment: The latest gear to ensure effective and safe workouts.</li>
